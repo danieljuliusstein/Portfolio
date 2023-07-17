@@ -1,0 +1,213 @@
+
+/*sizing and color of the website page*/
+html, body {
+  height: 100%;
+  width: auto;
+  background: #000000
+  
+}
+
+/*makes sure page does not move left to right*/  
+body{overflow-x: hidden;}
+/*sizing for the code in index.html in the div class of "icon"(which is the links to my Github, Replit, and other links), */
+.icon {
+    scale: 100%; 
+    border-radius: 30%;
+    width: 40px;
+    height: 40px;
+    padding: 15px; 
+  
+}
+.imdaniel {
+  background-color: #121723; 
+  padding: 350px;
+}
+.aboutMe {
+  background-color: #121723;
+  width: auto; 
+  overflow-x:hidden; 
+}
+
+.headerBar {
+  background-color: #121723; 
+ 	position: sticky; 
+  margin-top: 0%; 
+ 	text-align: right; 
+  margin-bottom: 0; 
+  padding: 0;
+  overflow-y: hidden;
+  overflow-x: hidden; 
+  width: auto; 
+  
+}
+a {
+  color: black; 
+}
+
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: green;
+}
+
+/* selected link */
+a:active {
+  color: #121723;
+}
+
+.home {
+  text-decoration: none;
+  margin: 10px;
+  padding: 20px;
+  float: right;
+  color:white;
+  font-family: Courier New;
+  font-size: "8px";
+  width: auto; 
+}
+.portfolio {
+  text-decoration: none;
+  margin: 10px;
+  padding: 20px;
+  color:inherit;
+  float: right; 
+  font-family: Courier New;
+  font-size: "8px";
+  width: auto
+}
+.resume {
+  text-decoration: none;
+  margin: 10px;
+  padding: 20px;
+  color:inherit;
+  float: right; 
+  font-family: Courier New;
+  font-size: "8px";
+}
+
+#footerbar {
+  background-color: #363e47; 
+ 	position: sticky; 
+ 	width: 100%; 
+ 	bottom: 0; 
+ 	left: 0; 
+ 	text-align: center; 
+  margin-bottom: 0; 
+  padding: 0;
+  height: 70px; 
+  overflow: hidden
+}
+
+body{
+  margin: 0;
+  padding: 0; 
+  width: auto; 
+  color: #121723;
+}
+
+
+.hi {
+  font-family: Courier New;
+  color: white; 
+  font-size: 20px; 
+  padding: 300px; 
+  width: auto; 
+} 
+
+.line {
+  height: 2px;
+  background: #121723;
+}
+
+.aboutMe {
+  font-size: 30px;
+  color: white; 
+  width: auto;
+  
+}
+
+.aboutMeText {
+  font-size: 15px; 
+  color: white; 
+  font-family: Courier New;
+  margin-bottom: 0;
+ 
+  
+}
+.whatIKnow {
+  font-size: 30px;
+  color: white; 
+  padding: 50px; 
+}
+
+.projSect {
+  color: white; 
+  background-color: #121723;
+  margin: 0; 
+  padding: 0;
+  font-size: 20px;
+  
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.hobbies {
+  color: white; 
+  background-color: #121723;
+  margin: 0; 
+  padding: 0;
+  font-size: 20px;
+}
+.daniel {
+  color: green; 
+  font-size: 50px; 
+}
+.seperator {
+  color: green;
+  padding: 20px; 
+  font-size: 30px;
+}
+
+.frontEnd {
+  padding-bottom: 50px;
+}
+
+.learning {
+  padding: 50px; 
+}
+#pImage {
+  margin: 50px; 
+  border: 3px solid #fff; 
+  width: 500px;
+  height: auto;
+  left: 0px;
+  right: 0px;
+}
+
+#cImage {
+  margin: 50px; 
+  border: 3px solid #fff; 
+  width: 500px;
+  height: auto;
+  left: 0px;
+  right: 0px;
+}
+
+#iGallery {
+  margin: 50px; 
+  border: 3px solid #fff; 
+  width: 500px;
+  height: auto;
+  left: 0px;
+  right: 0px;
+}
